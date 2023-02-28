@@ -42,7 +42,7 @@
   </div>
 </div>
  <footer>
-  <p>Made with 💘 by Miracle</p>
+  <p>Made with 💖 by Miracle</p>
  </footer>
 </template>
 
@@ -83,7 +83,7 @@ function sucess(){
     determine.value = true
 
 }
-// let clad = ref('miracle') 
+
 let icon = ref(false)
 function showTime(){
     content.value =  'Add Your Title 🤨📕📗'
@@ -146,6 +146,7 @@ display: flex;
 justify-content: center;
 font-size: 20px;
 width: 100%;
+/* position: fixed; */
 }
 
 .toast .i{
