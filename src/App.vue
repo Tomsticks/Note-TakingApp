@@ -147,6 +147,7 @@ justify-content: center;
 font-size: 20px;
 width: 100%;
 /* position: fixed; */
+display: none;
 }
 
 .toast .i{
