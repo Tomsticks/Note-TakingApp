@@ -195,7 +195,7 @@ overflow-y:scroll ;
 
   @media(max-width:780px){
     .text-con{
-        width: 60%;
+        width: 100%;
     }
     
   }
@@ -219,12 +219,14 @@ overflow-y:scroll ;
       padding:  0 0;
     }
      .head img{
-     width: 50%;
-     /* height: 60vh; */
+     width: 40%;
+     height: 10px;
     }
+
     .head{
       width: 30vh;
     }
+    
     .head h1{
       font-size: 20px
     }
