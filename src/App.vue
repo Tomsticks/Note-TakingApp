@@ -41,7 +41,9 @@
   </div>
   </div>
 </div>
- 
+ <footer>
+  <p>Made with 💘 by Miracle</p>
+ </footer>
 </template>
 
 <script setup>
@@ -117,6 +119,7 @@ function opentoast(){
 </script>
 
 <style scoped>
+
 .toast{
  background: linear-gradient(to right, black, green);
   width: 50vh;
@@ -133,7 +136,17 @@ function opentoast(){
   font-size: 25px;
 }
 
-
+footer{
+background-color: black;
+color: white;
+margin-top: 20vh;
+padding: 10px;
+box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.89);
+display: flex;
+justify-content: center;
+font-size: 20px;
+width: 100%;
+}
 
 .toast .i{
   background-color: rgba(255, 255, 255, 0.171);

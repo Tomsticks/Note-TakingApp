@@ -5,7 +5,6 @@
     scroll-behavior: smooth;
   }
   body{
-  background-image: url();
   padding: 0 20px;
   /* overflow: hidden; */
   }
@@ -130,7 +129,7 @@ overflow-y:scroll ;
   display: flex;
   justify-content: flex-end;
   height: 50vh;
-  background-image: url(../Images/cute-cartoon-drawing-green-pen-digitally-generated-54023838-removebg-preview.png);
+  background-image:url(../assets/cute-cartoon-drawing-green-pen-digitally-generated-54023838-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
