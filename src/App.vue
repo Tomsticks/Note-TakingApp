@@ -41,9 +41,9 @@
   </div>
   </div>
 </div>
- <footer>
+ <!-- <footer>
   <p>Made with 💖 by Miracle</p>
- </footer>
+ </footer> -->
 </template>
 
 <script setup>
@@ -122,12 +122,12 @@ function opentoast(){
 
 .toast{
  background: linear-gradient(to right, black, green);
-  width: 50vh;
+  /* width: 50vh; */
   padding: 20px ;
   color: white;
   box-shadow: 0 5px 6px 0 black;
   position: fixed;
-  right:56vh;
+  right:54vh;
   display: flex;
   overflow: hidden;
   transform: translateX(calc(100% + 30px));

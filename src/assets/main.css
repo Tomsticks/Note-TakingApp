@@ -230,6 +230,9 @@ overflow-y:scroll ;
     .head h1{
       font-size: 20px
     }
+    .toast{
+      width: 50vh;
+    }
   }
   @media(max-width:300px){
     
