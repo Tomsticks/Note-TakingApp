@@ -7,7 +7,7 @@
     <i  class="fa-solid fa-check"></i>
   </div>
   </div>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="../src/components/Tools/fontawesome-free-6.1.2-web/css/all.min.css">
     <nav>
 <div class="head">
