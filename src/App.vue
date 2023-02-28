@@ -1,12 +1,7 @@
 
 
 <template>
-  <div v-if="toast" :class="clad"  class="toast ">
-    <p>{{ content }}</p>
-    <div v-if="determine" class="i">
-    <i  class="fa-solid fa-check"></i>
-  </div>
-  </div>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="../src/components/Tools/fontawesome-free-6.1.2-web/css/all.min.css">
     <nav>
@@ -77,20 +72,9 @@ sucess()
   }
 }
 let determine = ref('true')
-function sucess(){
-    content.value = 'Sucessfuly added a new note✍✍'
-    toast.value = true
-    determine.value = true
 
-}
 
 let icon = ref(false)
-function showTime(){
-    content.value =  'Add Your Title 🤨📕📗'
-    toast.value = true
-    determine.value = false
-    icon.value = true
-}
 
 
 let choose = ref(false)
